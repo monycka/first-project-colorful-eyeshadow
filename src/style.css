@@ -1,18 +1,17 @@
 body {
+  font-family: "Amatic SC", cursive;
   margin: 0px;
   padding: 0px;
   text-align: center;
 }
 h1 {
   color: #061283;
-  font-family: "Amatic SC", cursive;
   font-size: 64px;
   margin: 10px;
 }
 
 h2 {
   color: #5d3f6a;
-  font-family: "Amatic SC", cursive;
   font-size: 42px;
   margin: 10px;
 }
@@ -23,14 +22,13 @@ span.colors {
 
 h3 {
   color: #4d8fac;
-  font-family: "Amatic SC", cursive;
   font-size: 38px;
   margin: 20px;
 }
 
 p {
   color: #004d47;
-  font-family: "Shadows Into Light", cursive;
+  font-family: 'Architects Daughter', cursive;
   font-size: 24px;
   margin: 0;
   padding: 1em;
@@ -60,14 +58,13 @@ hr:after {
   background: linear-gradient(0.25turn, #1f4788, #f2f1ef, #1f4788);
   border-radius: 10px;
   color: #61133a;
-  font-family: "Amatic SC", cursive;
   font-size: 34px;
   margin: 25px;
   padding: 10px;
 }
 ul {
   color: #61133a;
-  font-family: "Shadows Into Light", cursive;
+  font-family: 'Architects Daughter', cursive;
   font-size: 24px;
   list-style-type: none;
   margin: 0px;
@@ -102,7 +99,6 @@ div.image-gallery img {
 .learnMore {
   background: linear-gradient(0.25turn, #f47983, #f2f1ef, #f47983);
   border-radius: 10px;
-  font-family: "Amatic SC", cursive;
   font-size: 32px;
   margin: 25px;
   padding: 10px;
@@ -125,7 +121,7 @@ a:hover {
   box-shadow: 3px 3px 1px rgba(0, 0, 0, 0.6);
   color: #fff;
   display: block;
-  font-family: "Shadows Into Light", cursive;
+  font-family: 'Architects Daughter', cursive;
   font-size: 28px;
   margin: 30px auto 0 auto;
   padding: 20px;
