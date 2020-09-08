@@ -1,0 +1,139 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  text-align: center;
+}
+h1 {
+  color: #061283;
+  font-family: "Amatic SC", cursive;
+  font-size: 64px;
+  margin: 10px;
+}
+
+h2 {
+  color: #5d3f6a;
+  font-family: "Amatic SC", cursive;
+  font-size: 42px;
+  margin: 10px;
+}
+
+span.colors {
+  color: #c93756;
+}
+
+h3 {
+  color: #4d8fac;
+  font-family: "Amatic SC", cursive;
+  font-size: 38px;
+  margin: 20px;
+}
+
+p {
+  color: #004d47;
+  font-family: "Shadows Into Light", cursive;
+  font-size: 24px;
+  margin: 0;
+  padding: 1em;
+}
+.eyeshadowInformation {
+  background: linear-gradient(0.25turn, #be90d4, #f2f1ef, #be90d4);
+  border-radius: 10px;
+  margin: 25px;
+}
+hr {
+  border: none;
+  border-top: 3px double #bfbfbf;
+  color: #bfbfbf;
+  overflow: visible;
+  text-align: center;
+  height: 5px;
+}
+
+hr:after {
+  background: #f1f1f2;
+  padding: 0 4px;
+  position: relative;
+  top: -12px;
+}
+
+.types {
+  background: linear-gradient(0.25turn, #1f4788, #f2f1ef, #1f4788);
+  border-radius: 10px;
+  color: #61133a;
+  font-family: "Amatic SC", cursive;
+  font-size: 34px;
+  margin: 25px;
+  padding: 10px;
+}
+ul {
+  color: #61133a;
+  font-family: "Shadows Into Light", cursive;
+  font-size: 24px;
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+}
+
+.coder {
+  color: #c93756;
+  font-size: 20px;
+  padding-top: 25px;
+}
+
+img {
+  display: block;
+  float: left;
+  height: auto;
+  max-width: 100%;
+}
+
+div.image-gallery img {
+  display: flex;
+  width: 33.33%;
+}
+
+.clear {
+  clear: both;
+  font-size: 0;
+  height: 0;
+  width: 0;
+}
+
+.learnMore {
+  background: linear-gradient(0.25turn, #f47983, #f2f1ef, #f47983);
+  border-radius: 10px;
+  font-family: "Amatic SC", cursive;
+  font-size: 32px;
+  margin: 25px;
+  padding: 10px;
+}
+
+a:link {
+  color: #c92a89;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.buyEyeshadow {
+  background: #138d90;
+  border: 2px solid rgba(0, 0, 0, 0.4);
+  border-color: #138d90;
+  border-radius: 5px;
+  box-shadow: 3px 3px 1px rgba(0, 0, 0, 0.6);
+  color: #fff;
+  display: block;
+  font-family: "Shadows Into Light", cursive;
+  font-size: 28px;
+  margin: 30px auto 0 auto;
+  padding: 20px;
+}
+
+.buyEyeshadow:hover {
+  background-color: #fff;
+  color: #138d90;
+  cursor: pointer;
+  transition: all 200ms ease-in-out;
+}
