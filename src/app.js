@@ -5,11 +5,7 @@ function buyingEyeshadow() {
 
   let h3 = document.querySelector("h3");
   h3.innerHTML =
-    "Thank you " +
-    name +
-    " for buying with us! We'll be in touch by email soon to tell you more about our " +
-    color +
-    " eyeshadows.";
+    `Thank you ${name} for buying with us! We'll be in touch by email soon to tell you more about our ${color} eyeshadows!`;
 }
 let contactButton = document.querySelector("button");
 
